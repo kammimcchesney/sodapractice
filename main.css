@@ -1,0 +1,52 @@
+h1 {
+  text-align: right;
+  background-color: yellow;
+  color: purple;
+}
+
+span {
+  color: purple;
+}
+
+img {
+  max-width: 40%;
+}
+
+.important {
+  font-weight: bold;
+  color: red;
+}
+
+.fake {
+  background: blue;
+}
+
+.list {
+  width: 50%;
+  border: 1px solid purple;
+}
+
+.list li {
+  font-size: 22px;
+}
+
+.list.credits {
+  color:green;
+}
+
+.prestige .col-md {
+  background: blue;
+  color: yellow;
+  border: 2px solid magenta;
+  margin-bottom: 400px;
+  min-height: 400px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background: #CCC;
+  }
+  img {
+    max-width: 40%;
+  }
+}
